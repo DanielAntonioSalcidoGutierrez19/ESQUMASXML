@@ -1,0 +1,40 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="canciones">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cancion1" type="cancionType"/>
+                <xs:element name="cancion2" type="cancionType"/>
+                <xs:element name="cancion3" type="cancionType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="cancionType">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string"/>
+            <xs:element name="duracion" type="xs:string"/>
+            <xs:element name="anio" type="xs:string"/>
+            <xs:element name="Compositores" type="compositoresType"/>
+            <xs:element name="productores" type="productoresType"/>
+            <xs:element name="sello" type="xs:string"/>
+            <xs:element name="artista" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="compositoresType">
+        <xs:sequence>
+            <xs:element name="nombres" type="xs:string"/>
+            <xs:element name="apellidos" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="productoresType">
+        <xs:sequence>
+            <xs:element name="Productor" type="productorType"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="productorType">
+        <xs:sequence>
+            <xs:element name="nombres" type="xs:string"/>
+            <xs:element name="apellidos" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

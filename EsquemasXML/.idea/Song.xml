@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canciones SYSTEM "Sond.dtd">
+<canciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="song.xsd">
+    <cancion1>
+    <titulo>WE ARE THE CHAMPIONS</titulo>
+    <duracion>3:04 MINUTOS </duracion>
+    <anio>1977 </anio>
+    <Compositores>
+    <nombres>FREDDIE</nombres>
+    <apellidos>MERCURY</apellidos>
+    </Compositores>
+    <productores>
+        <Productor>
+    <nombres>MIKE</nombres>
+    <apellidos>STONE</apellidos>
+        </Productor>
+    </productores>
+        <sello>EMI(REINO UNIDO) </sello>
+        <artista>QUEEN</artista>
+    </cancion1>
+
+    <cancion2>
+        <titulo>RASPUTIN</titulo>
+        <duracion>4:43 MINUTOS </duracion>
+        <anio>1978 </anio>
+
+        <Compositores>
+            <nombres>FRANK</nombres>
+            <apellidos>FARIAN</apellidos>
+        </Compositores>
+
+        <productores>
+            <Productor>
+                <nombres>FRANK</nombres>
+                <apellidos>FARIAN</apellidos>
+            </Productor>
+
+        </productores>
+        <sello>HANSA</sello>
+        <artista>BONEY M</artista>
+    </cancion2>
+    <cancion3>
+        <titulo>SEND MY LOVE</titulo>
+        <duracion>3:43 MINUTOS</duracion>
+        <anio>2015</anio>
+        <Compositores>
+            <nombres>ADELE LURIE</nombres>
+            <apellidos>BLUE</apellidos>
+        </Compositores>
+        <productores>
+            <Productor>
+                <nombres>MAX</nombres>
+                <apellidos>MARTIN</apellidos>
+            </Productor>
+        </productores>
+        <sello>XL-COLUMBIA </sello>
+        <artista>ADELE</artista>
+    </cancion3>
+</canciones>
+
+
+
+
+
